@@ -15,5 +15,5 @@ let testSchema = mongoose.Schema({
     }
 })
 
-let testModel = mongoose.model('test', {})
+let testModel = mongoose.model('test', testSchema)
 module.exports = testModel;
